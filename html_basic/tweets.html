@@ -2,24 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Embedded Tweets</title>
+    <title>Tweets Page</title>
 </head>
 <body>
 
-    <h1>My Tweet Page</h1>
+<header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+</header>
 
-    <!-- Link back to homepage -->
-    <p><a href="index.html">Go Back to Homepage</a></p>
+<main>
+    <article>
+        <h2>My Embedded Tweet</h2>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">
-            Learning HTML with ALX! 🚀
-        </p>&mdash; ALX Learner
-        <a href="https://twitter.com/ALX_Africa/status/1762869146924925220"></a>
-    </blockquote>
+        <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">Learning HTML with ALX! 🚀</p>
+            <a href="https://twitter.com/ALX_Africa/status/1762869146924925220"></a>
+        </blockquote>
 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <p><a href="index.html">Go Back to Homepage</a></p>
+    </article>
+
+    <aside>
+        <p>placeholder to add comment thread later</p>
+    </aside>
+</main>
+
+<footer>
+    <p>Made by YOUR NAME - <a href="https://example.com" target="_blank">here</a></p>
+</footer>
 
 </body>
 </html>
